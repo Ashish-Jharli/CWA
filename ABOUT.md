@@ -30,7 +30,7 @@
 
 <h3> 🤝🏻 Connect with Me </h3>
 
-<p align="center">
+<p align="center" style="text-align:center;">
 &nbsp; <a href="https://youtube.com/@ashishjharli" target="_blank" rel="noopener noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" width="50" /></a>  
 &nbsp; <a href="https://www.instagram.com/ashish_khandal7851/?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D" target="_blank" rel="noopener noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Instagram-Icon.png" width="50" /></a>  
 &nbsp; <a href="https://www.linkedin.com/in/souvik-guria-/" target="_blank" rel="noopener noreferrer"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="50" /></a>
