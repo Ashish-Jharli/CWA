@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Python</title>
+    <link rel="website icon" type="png" href="../ashish-channel.png">
+    <style>
+li{
+    cursor: pointer;
+}
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>text-1</li>
+        <li>text-2</li>
+        <li>text-3</li>
+        <li>text-4</li>
+        <li>text-5</li>
+        <li>text-6</li>
+    </ul>
+ 
+    <script>
+        const lis = document.querySelectorAll('li')
+        lis.forEach((list) => {
+            list.addEventListener('click', (e) => {
+                e.target.remove()
+            })
+        })
+    </script>
+</body>
+
+</html>
