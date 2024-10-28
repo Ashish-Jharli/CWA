@@ -1,0 +1,13 @@
+@media screen and (max-width:760px) {
+    .bot {
+        left: 43% !important;
+    }
+
+    .home_animate {
+        width: 54.6% !important;
+        height: 78% !important;
+        top: 13.3% !important;
+        /* left: 15%; */
+        
+    }
+}
