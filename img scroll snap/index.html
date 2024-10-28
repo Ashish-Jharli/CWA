@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .scroll-container {
+            width: 250px;
+            overflow-x: scroll;
+            display: flex;
+            box-shadow: 5px 5px 10px 3px red;
+            scroll-snap-type: x mandatory;
+        }
+
+        img {
+            scroll-snap-align: center;
+            height: 300px;
+            width: 100%;
+            border: 2px solid white;
+            aspect-ratio: 11/16;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="scroll-container">
+        <img src="https://img.freepik.com/free-photo/natures-beauty-captured-colorful-flower-close-up-generative-ai_188544-8593.jpg?size=626&ext=jpg&ga=GA1.1.34264412.1707570000&semt=sph"
+            alt="">
+        <img src="https://kidlingoo.com/wp-content/uploads/flowers_name_in_english.jpg" alt="">
+        <img src="https://wallpapers.com/images/featured/flower-pictures-unpxbv1q9kxyqr1d.jpg" alt="">
+        <img src="https://cdn.pixabay.com/photo/2012/03/01/00/55/flowers-19830_640.jpg" alt="">
+        <img src="https://wallpapers.com/images/featured/flower-pictures-unpxbv1q9kxyqr1d.jpg" alt="">
+    </div>
+</body>
+
+</html>
