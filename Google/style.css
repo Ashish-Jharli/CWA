@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: Roboto;
+    background: cadetblue;
+    scroll-behavior: smooth;
+}
+
+.bodychange {
+    background-color: rgb(40, 38, 38);
+    color: white;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 5%;
+}
+
+header>nav {
+    float: right;
+    width: 15%;
+}
+
+header>nav>ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header>nav>ul>li {
+    list-style: none;
+}
+
+header>nav>ul>li>a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+header>nav>ul>li>a:hover {
+    text-decoration: underline;
+}
+
+.apps:hover {
+    /* background-color: gainsboro;
+    border-radius: 50px;
+    padding: 8px; */
+    cursor: pointer;
+}
+
+.apps_box {
+    background-color: gainsboro;
+    padding: 10px;
+    border-radius: 50px;
+    height: 450px;
+    width: 350px;
+    overflow-y: scroll;
+    position: absolute;
+    right: 5%;
+    z-index: 1;
+}
+
+.apps_box_in {
+    border-radius: 50px;
+    padding: 30px;
+    background-color: white;
+}
+
+.apps_box::-webkit-scrollbar {
+    display: none;
+}
+
+.aps_bx_in {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.aps_bx_in>a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.aps_bx_in>a>.items:hover {
+    background-color: rgb(233, 226, 226);
+    border-radius: 5px;
+}
+
+.apps_box_in>hr {
+    margin: 10px 0 40px;
+}
+
+.items {
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.items>.logo>img {
+    height: 35px;
+}
+
+.items>.logo_name {
+    font-size: 15px;
+}
+
+.button {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.button>button {
+    border-radius: 50px;
+    color: rgb(18, 18, 232);
+}
+
+#inpt {
+    display: block;
+    border-radius: 50px;
+    padding: 5px 10px;
+    padding-left: 20px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 100%;
+    width: 90%;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+#inpt::placeholder {
+    text-align: center;
+}
+
+.search {
+    display: flex;
+    gap: 20px;
+    position: relative;
+    width: 50%;
+    border: 1px solid;
+    border-radius: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    padding: 0 20px;
+}
+
+.search:focus-within {
+    background: white;
+    box-shadow: 0 0 20px gainsboro, 0 0 50px gainsboro;
+}
+
+.search:hover {
+    border: 1px solid white;
+}
+
+.search .fa-solid {
+    display: block;
+    margin: auto 0;
+    width: 18px;
+    height: 18px;
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+.imgFirst span {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.imgFirst span:nth-child(1),
+span:nth-child(4) {
+    color: blue;
+}
+
+.imgFirst span:nth-child(2),
+span:nth-child(6) {
+    color: red;
+}
+
+.imgFirst span:nth-child(3) {
+    color: orange;
+}
+
+.imgFirst span:nth-child(5) {
+    color: green;
+}
+
+button {
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button>a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 97px;
+    position: absolute;
+    bottom: 0;
+    font-size: 25px;
+}
+
+footer>.footer_bottom>.fa-solid {
+    float: right;
+}
+
+.setting_up {
+    display: none;
+}
+
+#setting_up {
+    position: absolute;
+    bottom: 120px;
+    right: 50px;
+    background-color: white;
+    padding: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 15px yellow, 0 0 20px rgb(216, 213, 213);
+}
+
+#setting_up>ul>li {
+    list-style: none;
+    height: 30px;
+    width: 100%;
+    padding: 10px 15px;
+    line-height: 10px;
+}
+
+#setting_up>ul>li:hover {
+    background-color: rgb(204, 194, 194);
+}
+
+#setting_up>ul>li>a {
+    text-decoration: none;
+}
+
+@media screen and (max-width:800px) {
+    .search {
+        width: 95%;
+    }
+
+    header>nav {
+        float: right;
+        width: 30%;
+    }
+}
