@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&family=Poltawski+Nowy:ital@1&family=Ubuntu:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* body {
+    background: url('https://www.colliers.com/-/media/images/colliers/asia/regional-image-library/1536x1040-hero-researchnews/generic1536x1040pxkl.ashx?bid=0a1129f133ff4180be8f1e1ccb78c8f5');
+} */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.nav-list {
+    width: 73%;
+    /* background-color: rgb(16, 13, 13); */
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 20px;
+}
+
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-list li a:hover {
+    color: rgb(133, 107, 107);
+    border-radius: 34px;
+}
+
+.rightNav {
+    /* background-color: tomato; */
+    width: 30%;
+    text-align: right;
+    padding: 0 23px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.logo {
+    display: flex;
+    width: 30%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 26%;
+    /* height: 95%; */
+    border: 2px solid black;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid gray;
+    border-radius: 9px;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url('https://www.colliers.com/-/media/images/colliers/asia/regional-image-library/1536x1040-hero-researchnews/generic1536x1040pxkl.ashx?bid=0a1129f133ff4180be8f1e1ccb78c8f5');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstsection {
+    height: 100vh;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+
+.firstHalf {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.secondHalf {
+    width: 30%;
+}
+
+.secondHalf img {
+    height: 100%;
+    width: 75%;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    
+}
+
+.text-big {
+    font-size: 35px;
+}
+
+.text-small {
+    font-size: 16px;
+
+}
+
+.btn {
+    padding: 8px 18px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+.btn-sb {
+    padding: 6px 10px;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.section {
+    font-family: 'Ubuntu', sans-serif;
+    /* height: 400px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    max-width: 80%;
+    padding: 10px;
+
+}
+
+.section-left {
+    flex-direction: row-reverse;
+}
+
+.thumbnail img {
+    /* height: 200%;
+    width: 150%; */
+    border: 2px solid black;
+    border-radius: 10%;
+    display: block;
+    margin: auto;
+    width: 150px;
+}
+
+.paras {
+    padding: 0 65px;
+}
+
+.sectionTag {
+    padding: 16px 0;
+}
+
+.sectionSubTag {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact {
+    background-color: #cdd7d4;
+    height: 833px;
+
+}
+
+.text-center {
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+}
+
+.form {
+    max-width: 62%;
+    margin: 25px auto;
+}
+
+.form-input {
+    margin: 14px 0;
+    padding: 5px 3px;
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.btn-dark {
+    border: 2px solid gray;
+    color: black;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    right: 5%;
+    top: 35%;
+}
+.hmt {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    left: 17%;
+    top: 35%;
+}
+
+.line {
+    width: 33px;
+    height: 4px;
+    background-color: white;
+    margin: 3px 3px;
+}
